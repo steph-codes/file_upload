@@ -2,7 +2,7 @@
     $msg ="";
     //if uplaod buton is pressed
     if (isset($_POST['upload'])) {
-        //path to store uploaded image
+        //path to store uploaded image / move_uploaded_file here
         $target ='images/'.basename($_FILES['image']['name']);
 
         //connect to db 
